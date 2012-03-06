@@ -1,0 +1,52 @@
+/*
+ * jstoc.css
+ * Stylesheet for the JavaScript Table-of-Contents
+ */
+#htoc {
+	border: 1px solid navy;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	color: navy;
+	background: #ddddff;
+}
+#htoc h3 {
+	margin-top: 0;
+	margin-left: 0.5em;
+}
+
+#htoc ul li.HTOCspacer {
+    list-style-type: none;
+}
+
+#htoc[class="htoneline"] {
+	background: transparent;
+	border: none;
+	width: auto;
+	padding-bottom: 0.25em;
+	padding-top: 0.25em;
+	min-height: 1.5em;
+}
+
+.htoneline {
+	overflow: hidden;
+}
+.htoneline ul {
+	margin:0;
+	padding: 0;
+	list-style:none;
+}
+.htoneline li {
+	float:left;
+	margin:0;
+	padding:0;
+}
+.htoneline a {
+	display: block;
+	padding-right: 0.45em;
+	padding-left: 0.45em;
+	border-left: 1px solid navy;
+}
+.htoneline li:first-child a {
+	border: none;
+	padding-left: 0;
+}
